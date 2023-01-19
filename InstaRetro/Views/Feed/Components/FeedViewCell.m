@@ -105,11 +105,10 @@
 // MARK: - Configure
 -(void)configure:(Post *)post {
     self.userNameLabel.text = post.user;
-    self.localizationLabel.text = @"Guarulhos";//post.localization;
+    self.localizationLabel.text = post.localization;
     self.postTimeLabel.text = post.createdAt;
     self.profileImageView.image = post.profileImage;
     self.postImageView.image = post.postImage;
-    //NSString *likesCount = [post.likes stringValue];
     self.likes.text = [NSString stringWithFormat:@"%@ Likes", post.likes];
     
 }

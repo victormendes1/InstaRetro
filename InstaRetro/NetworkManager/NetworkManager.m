@@ -43,6 +43,11 @@
             postObject.postUrl = urlDict[@"regular"];
             postObject.profiletUrl = profileDict[@"medium"];
             
+            
+            if(userDict[@"location"] != NSNull.new) {
+                postObject.localization = userDict[@"location"];
+            }
+            
             if (postDict[@"alt_description"] == NSNull.new) {
                 postObject.postDescription = sponsorDict[@"tagline"];
             } else {

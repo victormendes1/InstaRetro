@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Post : NSObject
 
 @property (strong, nonatomic) NSString *createdAt;
+@property (strong, nonatomic) NSString *localization;
 @property (strong, nonatomic) NSString *user;
 @property (strong, nonatomic) NSString *postDescription;
 @property (strong, nonatomic) NSString *postUrl;
