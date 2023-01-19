@@ -29,7 +29,7 @@
     [self setViewControllers:views];
     
     [self setIcons];
-    self.title = @"Instaretro";
+    self.title = @"InstaRetro";
     // [self setNavigationController];
     
 }
