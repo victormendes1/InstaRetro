@@ -7,28 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5734F8B02978AC490085F20B /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5734F8AF2978AC490085F20B /* NetworkManager.m */; };
+		576244C829782BEC00FF0F26 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 576244C729782BEC00FF0F26 /* User.m */; };
+		576244CD29782D6700FF0F26 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 576244CC29782D6700FF0F26 /* FeedViewModel.m */; };
 		57B348EC2971E59B00D00B62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B348EB2971E59B00D00B62 /* AppDelegate.m */; };
 		57B348EF2971E59B00D00B62 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B348EE2971E59B00D00B62 /* SceneDelegate.m */; };
-		57B348F22971E59B00D00B62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B348F12971E59B00D00B62 /* ViewController.m */; };
-		57B348F52971E59B00D00B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B348F32971E59B00D00B62 /* Main.storyboard */; };
 		57B348F72971E59D00D00B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B348F62971E59D00D00B62 /* Assets.xcassets */; };
 		57B348FA2971E59D00D00B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B348F82971E59D00D00B62 /* LaunchScreen.storyboard */; };
 		57B348FD2971E59D00D00B62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B348FC2971E59D00D00B62 /* main.m */; };
+		57B349072971E62000D00B62 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B349062971E62000D00B62 /* FeedViewController.m */; };
+		57B3490B2971E7DC00D00B62 /* FeedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B3490A2971E7DC00D00B62 /* FeedViewCell.m */; };
+		57B3490F2971F01700D00B62 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B3490E2971F01700D00B62 /* Post.m */; };
+		57F274252976CE9A00162BBE /* HomeTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F274242976CE9A00162BBE /* HomeTabController.m */; };
+		57F2742B2976DE4300162BBE /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F2742A2976DE3E00162BBE /* Billabong.ttf */; };
+		5D1071D9AE23B5BE6E2A3195 /* Pods_InstaRetro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFC0E3342C99550D3DD5926 /* Pods_InstaRetro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		375AF8189DBCB92C72D25B22 /* Pods-InstaRetro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaRetro.release.xcconfig"; path = "Target Support Files/Pods-InstaRetro/Pods-InstaRetro.release.xcconfig"; sourceTree = "<group>"; };
+		5734F8AE2978AC490085F20B /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		5734F8AF2978AC490085F20B /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		576244C629782BEC00FF0F26 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		576244C729782BEC00FF0F26 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		576244CB29782D6700FF0F26 /* FeedViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewModel.h; sourceTree = "<group>"; };
+		576244CC29782D6700FF0F26 /* FeedViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewModel.m; sourceTree = "<group>"; };
 		57B348E72971E59B00D00B62 /* InstaRetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaRetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B348EA2971E59B00D00B62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57B348EB2971E59B00D00B62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		57B348ED2971E59B00D00B62 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		57B348EE2971E59B00D00B62 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		57B348F02971E59B00D00B62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		57B348F12971E59B00D00B62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		57B348F42971E59B00D00B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57B348F62971E59D00D00B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57B348F92971E59D00D00B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57B348FB2971E59D00D00B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57B348FC2971E59D00D00B62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B349052971E62000D00B62 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		57B349062971E62000D00B62 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		57B349092971E7DC00D00B62 /* FeedViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewCell.h; sourceTree = "<group>"; };
+		57B3490A2971E7DC00D00B62 /* FeedViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewCell.m; sourceTree = "<group>"; };
+		57B3490D2971F01700D00B62 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		57B3490E2971F01700D00B62 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		57F274232976CE9A00162BBE /* HomeTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTabController.h; sourceTree = "<group>"; };
+		57F274242976CE9A00162BBE /* HomeTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTabController.m; sourceTree = "<group>"; };
+		57F2742A2976DE3E00162BBE /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
+		60BC6F9CFA6390A6B2DAC5B3 /* Pods-InstaRetro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaRetro.debug.xcconfig"; path = "Target Support Files/Pods-InstaRetro/Pods-InstaRetro.debug.xcconfig"; sourceTree = "<group>"; };
+		ACFC0E3342C99550D3DD5926 /* Pods_InstaRetro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaRetro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +58,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1071D9AE23B5BE6E2A3195 /* Pods_InstaRetro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5734F8AD2978AC070085F20B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				5734F8AE2978AC490085F20B /* NetworkManager.h */,
+				5734F8AF2978AC490085F20B /* NetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		576244C929782D0100FF0F26 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				576244CB29782D6700FF0F26 /* FeedViewModel.h */,
+				576244CC29782D6700FF0F26 /* FeedViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		57B348DE2971E59B00D00B62 = {
 			isa = PBXGroup;
 			children = (
 				57B348E92971E59B00D00B62 /* InstaRetro */,
 				57B348E82971E59B00D00B62 /* Products */,
+				C99C38E1C9EBC0DE08F59F45 /* Pods */,
+				79AB7CF4DF43D01CE6C42DE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +104,94 @@
 		57B348E92971E59B00D00B62 /* InstaRetro */ = {
 			isa = PBXGroup;
 			children = (
+				57F274292976DE2B00162BBE /* Fonts */,
+				57B3490C2971F00800D00B62 /* Model */,
+				57B349032971E5E900D00B62 /* Views */,
+				576244C929782D0100FF0F26 /* ViewModel */,
+				5734F8AD2978AC070085F20B /* NetworkManager */,
 				57B348EA2971E59B00D00B62 /* AppDelegate.h */,
 				57B348EB2971E59B00D00B62 /* AppDelegate.m */,
 				57B348ED2971E59B00D00B62 /* SceneDelegate.h */,
 				57B348EE2971E59B00D00B62 /* SceneDelegate.m */,
-				57B348F02971E59B00D00B62 /* ViewController.h */,
-				57B348F12971E59B00D00B62 /* ViewController.m */,
-				57B348F32971E59B00D00B62 /* Main.storyboard */,
 				57B348F62971E59D00D00B62 /* Assets.xcassets */,
 				57B348F82971E59D00D00B62 /* LaunchScreen.storyboard */,
 				57B348FB2971E59D00D00B62 /* Info.plist */,
 				57B348FC2971E59D00D00B62 /* main.m */,
 			);
 			path = InstaRetro;
+			sourceTree = "<group>";
+		};
+		57B349032971E5E900D00B62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57F274222976CE1500162BBE /* Home */,
+				57B349042971E60500D00B62 /* Feed */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57B349042971E60500D00B62 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				57B349082971E7AE00D00B62 /* Components */,
+				57B349052971E62000D00B62 /* FeedViewController.h */,
+				57B349062971E62000D00B62 /* FeedViewController.m */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		57B349082971E7AE00D00B62 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				57B349092971E7DC00D00B62 /* FeedViewCell.h */,
+				57B3490A2971E7DC00D00B62 /* FeedViewCell.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		57B3490C2971F00800D00B62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57B3490D2971F01700D00B62 /* Post.h */,
+				57B3490E2971F01700D00B62 /* Post.m */,
+				576244C629782BEC00FF0F26 /* User.h */,
+				576244C729782BEC00FF0F26 /* User.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57F274222976CE1500162BBE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				57F274232976CE9A00162BBE /* HomeTabController.h */,
+				57F274242976CE9A00162BBE /* HomeTabController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		57F274292976DE2B00162BBE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				57F2742A2976DE3E00162BBE /* Billabong.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		79AB7CF4DF43D01CE6C42DE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC0E3342C99550D3DD5926 /* Pods_InstaRetro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99C38E1C9EBC0DE08F59F45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BC6F9CFA6390A6B2DAC5B3 /* Pods-InstaRetro.debug.xcconfig */,
+				375AF8189DBCB92C72D25B22 /* Pods-InstaRetro.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57B349002971E59D00D00B62 /* Build configuration list for PBXNativeTarget "InstaRetro" */;
 			buildPhases = (
+				10C0F69929EDE8C4A3ED6776 /* [CP] Check Pods Manifest.lock */,
 				57B348E32971E59B00D00B62 /* Sources */,
 				57B348E42971E59B00D00B62 /* Frameworks */,
 				57B348E52971E59B00D00B62 /* Resources */,
+				6CC8D4DA534DF3D1757715F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,37 +253,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F2742B2976DE4300162BBE /* Billabong.ttf in Resources */,
 				57B348FA2971E59D00D00B62 /* LaunchScreen.storyboard in Resources */,
 				57B348F72971E59D00D00B62 /* Assets.xcassets in Resources */,
-				57B348F52971E59B00D00B62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10C0F69929EDE8C4A3ED6776 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaRetro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CC8D4DA534DF3D1757715F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaRetro/Pods-InstaRetro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaRetro/Pods-InstaRetro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaRetro/Pods-InstaRetro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57B348E32971E59B00D00B62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57B348F22971E59B00D00B62 /* ViewController.m in Sources */,
+				57B3490B2971E7DC00D00B62 /* FeedViewCell.m in Sources */,
+				576244C829782BEC00FF0F26 /* User.m in Sources */,
+				57F274252976CE9A00162BBE /* HomeTabController.m in Sources */,
+				57B349072971E62000D00B62 /* FeedViewController.m in Sources */,
 				57B348EC2971E59B00D00B62 /* AppDelegate.m in Sources */,
+				576244CD29782D6700FF0F26 /* FeedViewModel.m in Sources */,
 				57B348FD2971E59D00D00B62 /* main.m in Sources */,
 				57B348EF2971E59B00D00B62 /* SceneDelegate.m in Sources */,
+				5734F8B02978AC490085F20B /* NetworkManager.m in Sources */,
+				57B3490F2971F01700D00B62 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		57B348F32971E59B00D00B62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				57B348F42971E59B00D00B62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		57B348F82971E59D00D00B62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +449,7 @@
 		};
 		57B349012971E59D00D00B62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BC6F9CFA6390A6B2DAC5B3 /* Pods-InstaRetro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,7 +460,6 @@
 				INFOPLIST_FILE = InstaRetro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,6 +476,7 @@
 		};
 		57B349022971E59D00D00B62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375AF8189DBCB92C72D25B22 /* Pods-InstaRetro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,7 +487,6 @@
 				INFOPLIST_FILE = InstaRetro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -6,6 +6,7 @@
 //
 
 #import "SceneDelegate.h"
+#import "HomeTabController.h"
 
 @interface SceneDelegate ()
 
@@ -15,9 +16,9 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-    // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-    // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    self.window = [UIWindow.new initWithWindowScene:(UIWindowScene *)scene];
+    self.window.rootViewController = [self setNavigationBarWithButton];
+    [self.window makeKeyAndVisible];
 }
 
 
@@ -53,5 +54,31 @@
     // to restore the scene back to its current state.
 }
 
+// MARK: - setNavigationBar
+- (UINavigationController *)setNavigationBarWithButton  {
+    HomeTabController *viewController = HomeTabController.new;
+    UINavigationController *navigationController = [UINavigationController.new initWithRootViewController:viewController];
+    UINavigationBarAppearance *appearance = UINavigationBarAppearance.new;
+    
+    NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                   [UIColor whiteColor],NSForegroundColorAttributeName,
+                                   [UIFont fontWithName:@"Billabong" size:35],NSFontAttributeName, nil];
+    
+    
+    [appearance configureWithDefaultBackground];
+    appearance.backgroundColor = [UIColor colorWithRed:2.0f/255.0f
+                                                 green:95.0f/255.0f
+                                                  blue:164.0f/255.0f
+                                                 alpha:1];
+    appearance.titleTextAttributes = textAttributes;
+   
+    navigationController.navigationBar.standardAppearance = appearance;
+    navigationController.navigationBar.scrollEdgeAppearance = appearance;
+    navigationController.navigationBar.compactAppearance = appearance;
+    
+    viewController.navigationItem.rightBarButtonItem = [UIBarButtonItem.new initWithImage:[UIImage systemImageNamed:@"tray.fill"] style:UIBarButtonItemStylePlain target:self action:nil];
+    viewController.navigationController.navigationBar.tintColor = UIColor.whiteColor;
+    return navigationController;
+}
 
 @end
