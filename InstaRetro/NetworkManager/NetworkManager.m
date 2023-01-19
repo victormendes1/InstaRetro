@@ -48,10 +48,12 @@
                 postObject.localization = userDict[@"location"];
             }
             
-            if (postDict[@"alt_description"] == NSNull.new) {
-                postObject.postDescription = sponsorDict[@"tagline"];
+             if (postDict[@"alt_description"] == NSNull.new) {
+                 postObject.postDescription = @"";
+            }  if (postDict[@"sponsorship"] == NSNull.new) {
+                
             } else {
-                postObject.postDescription = postDict[@"alt_description"];
+                postObject.postDescription = sponsorDict[@"tagline"];
             }
             [posts addObject:postObject];
         }
