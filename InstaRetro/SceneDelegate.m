@@ -17,7 +17,9 @@
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
     self.window = [UIWindow.new initWithWindowScene:(UIWindowScene *)scene];
-    self.window.rootViewController = [self setNavigationBarWithButton];
+    
+    HomeTabController *viewController = HomeTabController.new;
+    self.window.rootViewController = [Support.new configureCustomNavigationControllerWithRoot:viewController];
     [self.window makeKeyAndVisible];
 }
 
@@ -52,33 +54,6 @@
     // Called as the scene transitions from the foreground to the background.
     // Use this method to save data, release shared resources, and store enough scene-specific state information
     // to restore the scene back to its current state.
-}
-
-// MARK: - setNavigationBar
-- (UINavigationController *)setNavigationBarWithButton  {
-    HomeTabController *viewController = HomeTabController.new;
-    UINavigationController *navigationController = [UINavigationController.new initWithRootViewController:viewController];
-    UINavigationBarAppearance *appearance = UINavigationBarAppearance.new;
-    
-    NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-                                   [UIColor whiteColor],NSForegroundColorAttributeName,
-                                   [UIFont fontWithName:@"Billabong" size:35],NSFontAttributeName, nil];
-    
-    
-    [appearance configureWithDefaultBackground];
-    appearance.backgroundColor = [UIColor colorWithRed:2.0f/255.0f
-                                                 green:95.0f/255.0f
-                                                  blue:164.0f/255.0f
-                                                 alpha:1];
-    appearance.titleTextAttributes = textAttributes;
-   
-    navigationController.navigationBar.standardAppearance = appearance;
-    navigationController.navigationBar.scrollEdgeAppearance = appearance;
-    navigationController.navigationBar.compactAppearance = appearance;
-    
-    viewController.navigationItem.rightBarButtonItem = [UIBarButtonItem.new initWithImage:[UIImage systemImageNamed:@"tray.fill"] style:UIBarButtonItemStylePlain target:self action:nil];
-    viewController.navigationController.navigationBar.tintColor = UIColor.whiteColor;
-    return navigationController;
 }
 
 @end
