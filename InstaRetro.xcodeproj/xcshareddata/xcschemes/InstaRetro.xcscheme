@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9CD8C3FB5164FC361EC0F3C49BA513C5"
-               BuildableName = "Pods_InstaRetro.framework"
-               BlueprintName = "Pods-InstaRetro"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "57B348E62971E59B00D00B62"
+               BuildableName = "InstaRetro.app"
+               BlueprintName = "InstaRetro"
+               ReferencedContainer = "container:InstaRetro.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "57B348E62971E59B00D00B62"
+            BuildableName = "InstaRetro.app"
+            BlueprintName = "InstaRetro"
+            ReferencedContainer = "container:InstaRetro.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,6 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "57B348E62971E59B00D00B62"
+            BuildableName = "InstaRetro.app"
+            BlueprintName = "InstaRetro"
+            ReferencedContainer = "container:InstaRetro.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
