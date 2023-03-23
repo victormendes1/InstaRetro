@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-InstaRetro/Pods-InstaRetro-frameworks.sh
+${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework
 ${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework

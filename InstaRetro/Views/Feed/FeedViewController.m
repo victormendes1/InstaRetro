@@ -30,27 +30,35 @@ static NSString *cellIdentifier = @"FeedCell";
     }];
 }
 
-- (void) setupPosts:(NSArray<Post *>*)posts {
-    self.posts = NSMutableArray.new;
+- (void)viewWillAppear:(BOOL)animated {
     dispatch_async(dispatch_get_main_queue(), ^{
-        [self.posts addObjectsFromArray:posts];
+        NSLog(@"Reload");
         [self.tableView reloadData];
     });
 }
 
+- (void) setupPosts:(NSArray<Post *>*)posts {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.posts = NSMutableArray.new;
+        [self.posts addObjectsFromArray:posts];
+        [self.tableView reloadData];
+        NSLog(@"set posts + reload");
+    });
+}
+
 - (void)setupTableView {
-    _tableView =  UITableView.new;
-    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    _tableView.backgroundColor = UIColor.whiteColor;
-    _tableView.delegate = self;
-    _tableView.dataSource = self;
-    _tableView.translatesAutoresizingMaskIntoConstraints = NO;
+    self.tableView = UITableView.new;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.backgroundColor = UIColor.whiteColor;
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.translatesAutoresizingMaskIntoConstraints = NO;
     
     [self.view addSubview: _tableView];
-    [_tableView registerClass:FeedViewCell.class forCellReuseIdentifier:cellIdentifier];
-    [_tableView.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:91].active = YES;
-    [_tableView.bottomAnchor constraintEqualToAnchor: self.view.bottomAnchor constant:-83].active = YES;
-    [_tableView.widthAnchor constraintEqualToAnchor:self.view.widthAnchor].active = YES;
+    [self.tableView registerClass:FeedViewCell.class forCellReuseIdentifier:cellIdentifier];
+    [self.tableView.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:91].active = YES;
+    [self.tableView.bottomAnchor constraintEqualToAnchor: self.view.bottomAnchor constant:-83].active = YES;
+    [self.tableView.widthAnchor constraintEqualToAnchor:self.view.widthAnchor].active = YES;
 }
 // MARK: - TableView
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

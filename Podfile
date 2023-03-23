@@ -7,6 +7,7 @@ target 'InstaRetro' do
 
   # Pods for InstaRetro
   pod 'PureLayout'
+  pod 'PromisesObjC'
   #pod 'AFNetworking', '~> 4.0'
   
 end

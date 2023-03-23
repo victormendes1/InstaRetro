@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5700569D29C3AF5E00F21005 /* Support.m in Sources */ = {isa = PBXBuildFile; fileRef = 5700569C29C3AF5E00F21005 /* Support.m */; };
+		570D72BD29C8CB150027A2C4 /* Endpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 570D72BC29C8CB150027A2C4 /* Endpoint.m */; };
+		570D72C029C8CEDB0027A2C4 /* PostDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 570D72BF29C8CEDB0027A2C4 /* PostDecoder.m */; };
 		5734F8B02978AC490085F20B /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5734F8AF2978AC490085F20B /* NetworkManager.m */; };
 		576244C829782BEC00FF0F26 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 576244C729782BEC00FF0F26 /* User.m */; };
 		576244CD29782D6700FF0F26 /* FeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 576244CC29782D6700FF0F26 /* FeedViewModel.m */; };
@@ -28,6 +30,10 @@
 		375AF8189DBCB92C72D25B22 /* Pods-InstaRetro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaRetro.release.xcconfig"; path = "Target Support Files/Pods-InstaRetro/Pods-InstaRetro.release.xcconfig"; sourceTree = "<group>"; };
 		5700569B29C3AF5E00F21005 /* Support.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Support.h; sourceTree = "<group>"; };
 		5700569C29C3AF5E00F21005 /* Support.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Support.m; sourceTree = "<group>"; };
+		570D72BB29C8CB150027A2C4 /* Endpoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Endpoint.h; sourceTree = "<group>"; };
+		570D72BC29C8CB150027A2C4 /* Endpoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Endpoint.m; sourceTree = "<group>"; };
+		570D72BE29C8CEDB0027A2C4 /* PostDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostDecoder.h; sourceTree = "<group>"; };
+		570D72BF29C8CEDB0027A2C4 /* PostDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostDecoder.m; sourceTree = "<group>"; };
 		5734F8AE2978AC490085F20B /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		5734F8AF2978AC490085F20B /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		576244C629782BEC00FF0F26 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -77,11 +83,22 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		570D72B729C8CA6A0027A2C4 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				570D72BB29C8CB150027A2C4 /* Endpoint.h */,
+				570D72BC29C8CB150027A2C4 /* Endpoint.m */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
 		5734F8AD2978AC070085F20B /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
 				5734F8AE2978AC490085F20B /* NetworkManager.h */,
 				5734F8AF2978AC490085F20B /* NetworkManager.m */,
+				570D72BE29C8CEDB0027A2C4 /* PostDecoder.h */,
+				570D72BF29C8CEDB0027A2C4 /* PostDecoder.m */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -121,6 +138,7 @@
 				5700569A29C3AED400F21005 /* Helpers */,
 				57B349032971E5E900D00B62 /* Views */,
 				576244C929782D0100FF0F26 /* ViewModel */,
+				570D72B729C8CA6A0027A2C4 /* Endpoint */,
 				5734F8AD2978AC070085F20B /* NetworkManager */,
 				57B348EA2971E59B00D00B62 /* AppDelegate.h */,
 				57B348EB2971E59B00D00B62 /* AppDelegate.m */,
@@ -324,9 +342,11 @@
 				57B3490B2971E7DC00D00B62 /* FeedViewCell.m in Sources */,
 				576244C829782BEC00FF0F26 /* User.m in Sources */,
 				5700569D29C3AF5E00F21005 /* Support.m in Sources */,
+				570D72C029C8CEDB0027A2C4 /* PostDecoder.m in Sources */,
 				57F274252976CE9A00162BBE /* HomeTabController.m in Sources */,
 				57B349072971E62000D00B62 /* FeedViewController.m in Sources */,
 				57B348EC2971E59B00D00B62 /* AppDelegate.m in Sources */,
+				570D72BD29C8CB150027A2C4 /* Endpoint.m in Sources */,
 				576244CD29782D6700FF0F26 /* FeedViewModel.m in Sources */,
 				57B348FD2971E59D00D00B62 /* main.m in Sources */,
 				57B348EF2971E59B00D00B62 /* SceneDelegate.m in Sources */,

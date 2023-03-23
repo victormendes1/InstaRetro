@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 #import "NetworkManager.h"
 #import "Post.h"
+#import "FBLPromises.h"
+#import <FBLPromises/FBLPromises.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

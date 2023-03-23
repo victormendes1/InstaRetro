@@ -49,7 +49,7 @@
 - (void)setTabBar {
     self.tabBar.items[0].image = [UIImage systemImageNamed:@"house.fill"];
     self.tabBar.items[1].image = [UIImage systemImageNamed:@"magnifyingglass"];
-    self.tabBar.items[2].image = [UIImage systemImageNamed:@"camera"];
+    self.tabBar.items[2].image = [UIImage systemImageNamed:@"camera.fill"];
     self.tabBar.items[3].image = [UIImage systemImageNamed:@"heart.circle.fill"];
     self.tabBar.items[4].image = [UIImage systemImageNamed:@"person.fill"];
     

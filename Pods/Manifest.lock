@@ -1,16 +1,20 @@
 PODS:
+  - PromisesObjC (2.2.0)
   - PureLayout (3.1.9)
 
 DEPENDENCIES:
+  - PromisesObjC
   - PureLayout
 
 SPEC REPOS:
   trunk:
+    - PromisesObjC
     - PureLayout
 
 SPEC CHECKSUMS:
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
   PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
 
-PODFILE CHECKSUM: 58b0170d2c642885b2393e7be9a26005768507e9
+PODFILE CHECKSUM: 3fd93fab8ce154ddd89e08c9030653a8f4bacdeb
 
 COCOAPODS: 1.11.3

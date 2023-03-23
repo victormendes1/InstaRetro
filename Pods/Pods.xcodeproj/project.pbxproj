@@ -7,25 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EEF68CF4F49C230CC89DB838CFA3669 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A72F7E3B6D4AF6293CC728D1825B946B /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F85FA6C3E3FDDD106B55FEED86EBA06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		253201FFCEA478C99A3970C5E3722B74 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F90B2E04EFB939C836BA02137FC89D3B /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40FE4DEAE156BB0CBF3F014DCDC66236 /* Pods-InstaRetro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0D8152381CED4D956B5CE84917164 /* Pods-InstaRetro-dummy.m */; };
-		4A3E057801126F54459EF3273AF88D8A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B2A6882F1E989A0F76B63A855E987 /* NSLayoutConstraint+PureLayout.m */; };
-		4B6DFFA937E35E23F45DC619C1EAB573 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 32849B88153EFE10C42AD9EF8CED9FDF /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67574E0AAA9E58393D1C2E1B4C5E1707 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC089F6A5FF4203671B85E40022E9A2 /* PureLayout-dummy.m */; };
-		87BBBAF1F66B27E2153592C17D22499B /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B2C553A17C85D3D764140EBE18602C /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CDC73E1BC5CC030BC31CB816667B063 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BD8BEB4BCC6E3B512FF70A5E063D /* NSArray+PureLayout.m */; };
-		8DD3C94718B2D4C1445D2F8FFCCB3F6E /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 97501F9366F9E5E49CE81B6A7158F6AC /* ALView+PureLayout.m */; };
-		B7775391C9C7FB76EC7616CA37E04B7B /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 322F1E56B10AFDBBD6EDAF48372DE756 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C48883845D739B5D005B90914BD32632 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 123A254A231B536E205426F275C27915 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C91790192E090C1FA15F0BBBFB0ED231 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F96E4ABE8F89F7939CD79D6E6FB7CE /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEAC22BCBE651C9C0D907B1DC7ACF007 /* Pods-InstaRetro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 160C5D6EB50AEBC6F2B7D7BA80220844 /* Pods-InstaRetro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0421BA4275CA2429CD8DBCF1F99967E2 /* FBLPromise+Reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = A526A03376633F773AE766197B2DDA35 /* FBLPromise+Reduce.m */; };
+		0616832BCAAFFD3C0ADB30390147CD25 /* FBLPromise+Do.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DF54052A2127F4DB0627661D2B8A6B /* FBLPromise+Do.m */; };
+		0A19F192A10119E839190B41AE397305 /* FBLPromiseError.h in Headers */ = {isa = PBXBuildFile; fileRef = EA10B90C5E5F9735DCAF2B69B7898746 /* FBLPromiseError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5518DBDC63E37EFCE9BB02DF301FBC /* FBLPromise+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C1CA9F5F3645112DBFDB33DE287731 /* FBLPromise+Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6A14AD60C2AED8E0557866B909FF57 /* FBLPromise+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8DBB4A5EB8AB028469475C1E85D466 /* FBLPromise+Async.m */; };
+		0CC6931BBB54C6A1992F82812E6F7DBA /* FBLPromise+Await.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2992DDDE2090360A3F9EB9791A9D22 /* FBLPromise+Await.m */; };
+		1C0FECF0400E3028F1882037DABC8A7F /* FBLPromise+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FE0DC38EC06A692304095A1AAD61D0 /* FBLPromise+Testing.m */; };
+		1EEF68CF4F49C230CC89DB838CFA3669 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCAF4C840EC221A9EB5914B744A1AF8 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		253201FFCEA478C99A3970C5E3722B74 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 804E187C6ABD3313C433EAF10BEF2E19 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2697CA73D6D15CCDE7DA13E676F0E641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2998CAD3A72D48ADB5E09DFD2B42D8CE /* FBLPromise+Wrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD3A6D1B0407A4E4089C9FB960F8ED /* FBLPromise+Wrap.m */; };
+		3A0D9E4C051A8036B874DE10F556019B /* FBLPromise+Retry.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A9E3EE83C227FF8233DAD0EC95BEEE /* FBLPromise+Retry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47BBDAE636C015574800F693C5B961E3 /* FBLPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = A407ABD0C4BA7FF68622B4D47C3B5A59 /* FBLPromise.m */; };
+		4A3E057801126F54459EF3273AF88D8A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3EF1125129D39BD7153B2EFE65314 /* NSLayoutConstraint+PureLayout.m */; };
+		4B6DFFA937E35E23F45DC619C1EAB573 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F080ADF7CB1B573CA79CFC6FD832C909 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C915B6FAA8A3D7E5332DA6AD78C076E /* FBLPromise+Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6CF7E0EB434601C50A151603388D3B /* FBLPromise+Race.m */; };
+		503E4996780E392DEA709307B4A23E80 /* FBLPromise+Recover.h in Headers */ = {isa = PBXBuildFile; fileRef = DD989E5C03E5EB78B57B2B637F9D9FE4 /* FBLPromise+Recover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54390C217EDB9356FED14E261B5DDF81 /* FBLPromise+Race.h in Headers */ = {isa = PBXBuildFile; fileRef = 97554F8D861319B1638DEC9D7A323783 /* FBLPromise+Race.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DB0E51ABA3118E51B90F6A0E875299 /* FBLPromisePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B952CC8871C2BE6DB063E53B38E66D4 /* FBLPromisePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5DE6E1C8108ACCD702BDB7E1758B98CB /* FBLPromise+Do.h in Headers */ = {isa = PBXBuildFile; fileRef = F496D9AEB0F7E2B598FD03AF7BC7E1F4 /* FBLPromise+Do.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C2ADA1F2F23F48E6744E29AA0FBFA2 /* FBLPromise+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 429DAFDE029FF9EFED89ACD813BD7536 /* FBLPromise+Delay.m */; };
+		67200FC7F43D52390F191CCBE8C989D7 /* FBLPromise+Always.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAC30F36196C66155292693EDC35669 /* FBLPromise+Always.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67574E0AAA9E58393D1C2E1B4C5E1707 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AD42740831FB3FC42B8A057E0BF5F4 /* PureLayout-dummy.m */; };
+		67D10785E1CA8DAAB7F2D2356DBEA96A /* FBLPromise+Wrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D0F90625B6F9CDE279F2AB6C57FDF0 /* FBLPromise+Wrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67DE17B49BE1F4D5CD8726AF57A38B46 /* FBLPromise+Reduce.h in Headers */ = {isa = PBXBuildFile; fileRef = BF193A1A5E037535801091A66B2F441C /* FBLPromise+Reduce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7060E468379E8192C7824EF05985E516 /* FBLPromise+All.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742937C613A6B313C4D0A81DBB8BFBA /* FBLPromise+All.m */; };
+		7395AB047CD3F7F7E73863E6AE0897AB /* FBLPromise+Async.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A759328CCE1CC837617CFB5CA8677D6 /* FBLPromise+Async.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80F54C2BF222753408F5C3E1EB7D72B8 /* PromisesObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16413C3FFB839BBC778CA4F34E3DFF27 /* PromisesObjC-dummy.m */; };
+		835025897F8AA7BA3F9CF5766997D3C3 /* FBLPromises.h in Headers */ = {isa = PBXBuildFile; fileRef = CA642A183D30B813660AA86CBB787FDA /* FBLPromises.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87BBBAF1F66B27E2153592C17D22499B /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E25B9A2C99BBBDD6EDD7B19FB3C0A758 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B63DFFBC8E8E6536F04D1622AFBCE15 /* FBLPromise+Then.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEABA8FBD8244687D8E3F54DD9ED29 /* FBLPromise+Then.m */; };
+		8CDC73E1BC5CC030BC31CB816667B063 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E40352B5ECC56FB851176F0CDA22F0F7 /* NSArray+PureLayout.m */; };
+		8DD3C94718B2D4C1445D2F8FFCCB3F6E /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3662F6D3A0E0AC37A6849938305D7 /* ALView+PureLayout.m */; };
+		8F24CCC78D4735A6C8F51DDEA32896E3 /* FBLPromise+Any.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4179E25F0AB77E10049A85BB3B46C2 /* FBLPromise+Any.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE409413F20F76FD2ECAED13461C370 /* FBLPromise+Validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B53D32FFA0FADDD0EFD1F221D2DBF1 /* FBLPromise+Validate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1BE424B234205521DEF61469FE8E390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B116B5A6AE4762DCCAEB3A7EEDD33011 /* FBLPromise+Recover.m in Sources */ = {isa = PBXBuildFile; fileRef = 02185670F0A47AC9FAD488951D594FE7 /* FBLPromise+Recover.m */; };
+		B5342077AA105B42CD6AA7F18C4C0696 /* FBLPromise+Any.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C51C5A08281023DA4AB670B7560D5 /* FBLPromise+Any.m */; };
+		B6AD3079500087EF1ABF339CC605CE69 /* FBLPromise+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = BB26ABCDDB7537FBEBBF13F8A2A5DC23 /* FBLPromise+Catch.m */; };
+		B7573A7D0645523D06C5D6400DEAF1A6 /* Pods-InstaRetro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0D8152381CED4D956B5CE84917164 /* Pods-InstaRetro-dummy.m */; };
+		B7775391C9C7FB76EC7616CA37E04B7B /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C3067C98DFCB27B976D1C17BCA13BE1E /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8475811835AA1D8D35696025B54A32A /* FBLPromise+Await.h in Headers */ = {isa = PBXBuildFile; fileRef = 10DDF914E7F77176B87E1D09F67FF39C /* FBLPromise+Await.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C111625609C3A672D0F9217B126A6872 /* FBLPromise+Retry.m in Sources */ = {isa = PBXBuildFile; fileRef = EE995745507A6197CB62B20FBF06444C /* FBLPromise+Retry.m */; };
+		C2D5F5F8F079EBC3F2AE30E796EA7012 /* FBLPromise+Delay.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB49397961F72F456FE3E5A67E23EDE /* FBLPromise+Delay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C37B258B49C1CAEB8FD4B640DF9BA4A5 /* FBLPromise+Then.h in Headers */ = {isa = PBXBuildFile; fileRef = 19498647B578CA03BADABD1AD90B908F /* FBLPromise+Then.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C48883845D739B5D005B90914BD32632 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B360333BA9833FD9A0AE97FA731917A9 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C91790192E090C1FA15F0BBBFB0ED231 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6D256CF230629C38B79888A6A20ACD /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D855E73C5D77114705E916988AB5C966 /* FBLPromise+Timeout.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E291AC6789569F47FE6F8A0CF454CB /* FBLPromise+Timeout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA98FA4A7AC4FEF12581DE908D3AB376 /* FBLPromise+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C31CFE4214DE0F7EDDC5F0826A781 /* FBLPromise+Validate.m */; };
+		DEEE3026EB40EFE54A3C791C5382A0F9 /* FBLPromiseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E9CAF69A10FEA05C7D7D67044DF29C /* FBLPromiseError.m */; };
 		E099615F3729D4459B41F1AA2403775A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E13E82E6D1F6E3BF315BE1BFDF771BD6 /* PromisesObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9935D2044C3EFB403FA75CBDF28B25 /* PromisesObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8C4C9797EDEF0293A2CAC8E2ACE0254 /* FBLPromise+All.h in Headers */ = {isa = PBXBuildFile; fileRef = A5547D23067C1BC82CC6D1A31197D710 /* FBLPromise+All.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3526329A0CD55A132F6886447061897 /* FBLPromise+Catch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF742CB1A4FA007687F567661DCD844 /* FBLPromise+Catch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F68ED69386B21248427FA34CEA451E07 /* FBLPromise+Timeout.m in Sources */ = {isa = PBXBuildFile; fileRef = CA15AE293F2F8B09A22B331A15AA11F3 /* FBLPromise+Timeout.m */; };
+		F692AFE716830C83D0232CB697C587CF /* FBLPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = D02238C73AB79A8DCE49EAD4027B2F5D /* FBLPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC1802D1534D54F5A3010B568954D97E /* FBLPromise+Always.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB26CA7175BA014E7C55200F343ED /* FBLPromise+Always.m */; };
+		FDA7DDDCC38B15C29A8A2A7FF8934529 /* Pods-InstaRetro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 160C5D6EB50AEBC6F2B7D7BA80220844 /* Pods-InstaRetro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E595DB2C50438C046F6439F87677EA23 /* PBXContainerItemProxy */ = {
+		79EC3D0108CD6A34102C607079F28D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
+			remoteInfo = PromisesObjC;
+		};
+		ED380ACBE3118E1EF703C20EDE5E58F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,38 +85,93 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		123A254A231B536E205426F275C27915 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/include/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		02185670F0A47AC9FAD488951D594FE7 /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
+		08A9E3EE83C227FF8233DAD0EC95BEEE /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
+		0DFB1A4907E285F692E8E7DC18B4EE9F /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		0F7C51C5A08281023DA4AB670B7560D5 /* FBLPromise+Any.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Any.m"; path = "Sources/FBLPromises/FBLPromise+Any.m"; sourceTree = "<group>"; };
+		10DDF914E7F77176B87E1D09F67FF39C /* FBLPromise+Await.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Await.h"; path = "Sources/FBLPromises/include/FBLPromise+Await.h"; sourceTree = "<group>"; };
 		160C5D6EB50AEBC6F2B7D7BA80220844 /* Pods-InstaRetro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstaRetro-umbrella.h"; sourceTree = "<group>"; };
-		1993BD8BEB4BCC6E3B512FF70A5E063D /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		16413C3FFB839BBC778CA4F34E3DFF27 /* PromisesObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesObjC-dummy.m"; sourceTree = "<group>"; };
+		1655AF17FE654E31A00F1B527DC6C9D9 /* PureLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.debug.xcconfig; sourceTree = "<group>"; };
+		19498647B578CA03BADABD1AD90B908F /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
+		1CCAF4C840EC221A9EB5914B744A1AF8 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/include/NSArray+PureLayout.h"; sourceTree = "<group>"; };
 		2698E966457168C867763CAC83602473 /* Pods-InstaRetro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaRetro-Info.plist"; sourceTree = "<group>"; };
+		2742937C613A6B313C4D0A81DBB8BFBA /* FBLPromise+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+All.m"; path = "Sources/FBLPromises/FBLPromise+All.m"; sourceTree = "<group>"; };
+		28E3662F6D3A0E0AC37A6849938305D7 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		28FE0DC38EC06A692304095A1AAD61D0 /* FBLPromise+Testing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Testing.m"; path = "Sources/FBLPromises/FBLPromise+Testing.m"; sourceTree = "<group>"; };
+		2A759328CCE1CC837617CFB5CA8677D6 /* FBLPromise+Async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Async.h"; path = "Sources/FBLPromises/include/FBLPromise+Async.h"; sourceTree = "<group>"; };
 		2CE3C56876DC8E93E758AF3F2103BCF3 /* Pods-InstaRetro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaRetro.release.xcconfig"; sourceTree = "<group>"; };
-		322F1E56B10AFDBBD6EDAF48372DE756 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/include/PureLayout.h; sourceTree = "<group>"; };
-		32849B88153EFE10C42AD9EF8CED9FDF /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/include/PureLayoutDefines.h; sourceTree = "<group>"; };
-		34BAC89A0D67B845F11A344C27F12EED /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
+		2DFD3A6D1B0407A4E4089C9FB960F8ED /* FBLPromise+Wrap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Wrap.m"; path = "Sources/FBLPromises/FBLPromise+Wrap.m"; sourceTree = "<group>"; };
+		2EB3EF1125129D39BD7153B2EFE65314 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromisesObjC; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D0F90625B6F9CDE279F2AB6C57FDF0 /* FBLPromise+Wrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Wrap.h"; path = "Sources/FBLPromises/include/FBLPromise+Wrap.h"; sourceTree = "<group>"; };
+		3B9935D2044C3EFB403FA75CBDF28B25 /* PromisesObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesObjC-umbrella.h"; sourceTree = "<group>"; };
 		3C259D368A92A3FD4B9510A2337D35FD /* Pods-InstaRetro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaRetro.debug.xcconfig"; sourceTree = "<group>"; };
-		49B2C553A17C85D3D764140EBE18602C /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		3D606BA1960A07531A393B91C06CF49D /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		3F2992DDDE2090360A3F9EB9791A9D22 /* FBLPromise+Await.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Await.m"; path = "Sources/FBLPromises/FBLPromise+Await.m"; sourceTree = "<group>"; };
+		3F6CF7E0EB434601C50A151603388D3B /* FBLPromise+Race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Race.m"; path = "Sources/FBLPromises/FBLPromise+Race.m"; sourceTree = "<group>"; };
+		429DAFDE029FF9EFED89ACD813BD7536 /* FBLPromise+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Delay.m"; path = "Sources/FBLPromises/FBLPromise+Delay.m"; sourceTree = "<group>"; };
+		49B53D32FFA0FADDD0EFD1F221D2DBF1 /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
 		4F5BD2FE0DBDF4E89A3228890FE3B06E /* Pods-InstaRetro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaRetro-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51E9CAF69A10FEA05C7D7D67044DF29C /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
+		52C1CA9F5F3645112DBFDB33DE287731 /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
+		59D252B82EE86BE6DA3ADBBDFDA25EA6 /* PromisesObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.release.xcconfig; sourceTree = "<group>"; };
+		5BAC30F36196C66155292693EDC35669 /* FBLPromise+Always.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Always.h"; path = "Sources/FBLPromises/include/FBLPromise+Always.h"; sourceTree = "<group>"; };
+		6A6D256CF230629C38B79888A6A20ACD /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		6C8DBB4A5EB8AB028469475C1E85D466 /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
 		6DBB347635545E86A5478C28E9A8E5D6 /* Pods-InstaRetro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InstaRetro.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		80F96E4ABE8F89F7939CD79D6E6FB7CE /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		7B952CC8871C2BE6DB063E53B38E66D4 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
+		7CF742CB1A4FA007687F567661DCD844 /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
+		804E187C6ABD3313C433EAF10BEF2E19 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/include/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		83C994E2F2D40CCCA94561E0BED47D92 /* Pods-InstaRetro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaRetro-frameworks.sh"; sourceTree = "<group>"; };
-		84D9FD75646605AE4BB593A155E008BD /* PureLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.debug.xcconfig; sourceTree = "<group>"; };
-		9458B60191A190AB842EBA5C8527A6DD /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
-		97501F9366F9E5E49CE81B6A7158F6AC /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		97554F8D861319B1638DEC9D7A323783 /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
+		98AD42740831FB3FC42B8A057E0BF5F4 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
 		9BE0D8152381CED4D956B5CE84917164 /* Pods-InstaRetro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaRetro-dummy.m"; sourceTree = "<group>"; };
-		9CB7D2A51A1D494FF2483435538B5F8B /* Pods_InstaRetro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaRetro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CB7D2A51A1D494FF2483435538B5F8B /* Pods-InstaRetro */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-InstaRetro"; path = Pods_InstaRetro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F352F736E8DA00E7E094329022E61BF /* PureLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.release.xcconfig; sourceTree = "<group>"; };
+		A1DF54052A2127F4DB0627661D2B8A6B /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
 		A3AC8D8B269E14A54CEF519951C749C1 /* Pods-InstaRetro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaRetro-acknowledgements.plist"; sourceTree = "<group>"; };
-		A72F7E3B6D4AF6293CC728D1825B946B /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/include/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		ABC089F6A5FF4203671B85E40022E9A2 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		B7C44BC945171FD81F015DC3F48478B5 /* PureLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.release.xcconfig; sourceTree = "<group>"; };
-		CE6B2A6882F1E989A0F76B63A855E987 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		D95BA5559E8EE97AF8CE2757639D6E24 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F90B2E04EFB939C836BA02137FC89D3B /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/include/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		A407ABD0C4BA7FF68622B4D47C3B5A59 /* FBLPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromise.m; path = Sources/FBLPromises/FBLPromise.m; sourceTree = "<group>"; };
+		A526A03376633F773AE766197B2DDA35 /* FBLPromise+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Reduce.m"; path = "Sources/FBLPromises/FBLPromise+Reduce.m"; sourceTree = "<group>"; };
+		A5547D23067C1BC82CC6D1A31197D710 /* FBLPromise+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+All.h"; path = "Sources/FBLPromises/include/FBLPromise+All.h"; sourceTree = "<group>"; };
+		A92DB26CA7175BA014E7C55200F343ED /* FBLPromise+Always.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Always.m"; path = "Sources/FBLPromises/FBLPromise+Always.m"; sourceTree = "<group>"; };
+		ABB49397961F72F456FE3E5A67E23EDE /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
+		B360333BA9833FD9A0AE97FA731917A9 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/include/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		BB26ABCDDB7537FBEBBF13F8A2A5DC23 /* FBLPromise+Catch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Catch.m"; path = "Sources/FBLPromises/FBLPromise+Catch.m"; sourceTree = "<group>"; };
+		BC8E335F42B4E893593F589361A29C06 /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
+		BF193A1A5E037535801091A66B2F441C /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
+		C21EC73BFC14B48F4139912B1A5953ED /* PromisesObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.debug.xcconfig; sourceTree = "<group>"; };
+		C3067C98DFCB27B976D1C17BCA13BE1E /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/include/PureLayout.h; sourceTree = "<group>"; };
+		CA15AE293F2F8B09A22B331A15AA11F3 /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
+		CA642A183D30B813660AA86CBB787FDA /* FBLPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromises.h; path = Sources/FBLPromises/include/FBLPromises.h; sourceTree = "<group>"; };
+		D02238C73AB79A8DCE49EAD4027B2F5D /* FBLPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromise.h; path = Sources/FBLPromises/include/FBLPromise.h; sourceTree = "<group>"; };
+		D1E291AC6789569F47FE6F8A0CF454CB /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
+		D73C3BF255729162305EB777D3D53560 /* PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesObjC-Info.plist"; sourceTree = "<group>"; };
+		DD989E5C03E5EB78B57B2B637F9D9FE4 /* FBLPromise+Recover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Recover.h"; path = "Sources/FBLPromises/include/FBLPromise+Recover.h"; sourceTree = "<group>"; };
+		DE8C31CFE4214DE0F7EDDC5F0826A781 /* FBLPromise+Validate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Validate.m"; path = "Sources/FBLPromises/FBLPromise+Validate.m"; sourceTree = "<group>"; };
+		E25B9A2C99BBBDD6EDD7B19FB3C0A758 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		E40352B5ECC56FB851176F0CDA22F0F7 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA10B90C5E5F9735DCAF2B69B7898746 /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
+		EE995745507A6197CB62B20FBF06444C /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
+		F080ADF7CB1B573CA79CFC6FD832C909 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/include/PureLayoutDefines.h; sourceTree = "<group>"; };
+		F496D9AEB0F7E2B598FD03AF7BC7E1F4 /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
+		F49B6ECB697781A6162CE854BAC48B63 /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
+		FEEEABA8FBD8244687D8E3F54DD9ED29 /* FBLPromise+Then.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Then.m"; path = "Sources/FBLPromises/FBLPromise+Then.m"; sourceTree = "<group>"; };
+		FF4179E25F0AB77E10049A85BB3B46C2 /* FBLPromise+Any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Any.h"; path = "Sources/FBLPromises/include/FBLPromise+Any.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8BC7307379BEE4B4AE87709B9BFA0DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2697CA73D6D15CCDE7DA13E676F0E641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D5B06B560F877F6B60CDEFB0BCF7F47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,40 +180,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE86790FEFA037AB688819FDF783FC2 /* Frameworks */ = {
+		A543523F7B91C73DAFCE11E9A2583667 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F85FA6C3E3FDDD106B55FEED86EBA06 /* Foundation.framework in Frameworks */,
+				A1BE424B234205521DEF61469FE8E390 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04A2C822144CEC05EB5AD23AE0036229 /* Pods */ = {
+		071BF7A9C899DF723FF7F4A8196E1A5F /* PromisesObjC */ = {
 			isa = PBXGroup;
 			children = (
-				4A603A878E5436DC43878A309A49F56C /* PureLayout */,
+				D02238C73AB79A8DCE49EAD4027B2F5D /* FBLPromise.h */,
+				A407ABD0C4BA7FF68622B4D47C3B5A59 /* FBLPromise.m */,
+				A5547D23067C1BC82CC6D1A31197D710 /* FBLPromise+All.h */,
+				2742937C613A6B313C4D0A81DBB8BFBA /* FBLPromise+All.m */,
+				5BAC30F36196C66155292693EDC35669 /* FBLPromise+Always.h */,
+				A92DB26CA7175BA014E7C55200F343ED /* FBLPromise+Always.m */,
+				FF4179E25F0AB77E10049A85BB3B46C2 /* FBLPromise+Any.h */,
+				0F7C51C5A08281023DA4AB670B7560D5 /* FBLPromise+Any.m */,
+				2A759328CCE1CC837617CFB5CA8677D6 /* FBLPromise+Async.h */,
+				6C8DBB4A5EB8AB028469475C1E85D466 /* FBLPromise+Async.m */,
+				10DDF914E7F77176B87E1D09F67FF39C /* FBLPromise+Await.h */,
+				3F2992DDDE2090360A3F9EB9791A9D22 /* FBLPromise+Await.m */,
+				7CF742CB1A4FA007687F567661DCD844 /* FBLPromise+Catch.h */,
+				BB26ABCDDB7537FBEBBF13F8A2A5DC23 /* FBLPromise+Catch.m */,
+				ABB49397961F72F456FE3E5A67E23EDE /* FBLPromise+Delay.h */,
+				429DAFDE029FF9EFED89ACD813BD7536 /* FBLPromise+Delay.m */,
+				F496D9AEB0F7E2B598FD03AF7BC7E1F4 /* FBLPromise+Do.h */,
+				A1DF54052A2127F4DB0627661D2B8A6B /* FBLPromise+Do.m */,
+				97554F8D861319B1638DEC9D7A323783 /* FBLPromise+Race.h */,
+				3F6CF7E0EB434601C50A151603388D3B /* FBLPromise+Race.m */,
+				DD989E5C03E5EB78B57B2B637F9D9FE4 /* FBLPromise+Recover.h */,
+				02185670F0A47AC9FAD488951D594FE7 /* FBLPromise+Recover.m */,
+				BF193A1A5E037535801091A66B2F441C /* FBLPromise+Reduce.h */,
+				A526A03376633F773AE766197B2DDA35 /* FBLPromise+Reduce.m */,
+				08A9E3EE83C227FF8233DAD0EC95BEEE /* FBLPromise+Retry.h */,
+				EE995745507A6197CB62B20FBF06444C /* FBLPromise+Retry.m */,
+				52C1CA9F5F3645112DBFDB33DE287731 /* FBLPromise+Testing.h */,
+				28FE0DC38EC06A692304095A1AAD61D0 /* FBLPromise+Testing.m */,
+				19498647B578CA03BADABD1AD90B908F /* FBLPromise+Then.h */,
+				FEEEABA8FBD8244687D8E3F54DD9ED29 /* FBLPromise+Then.m */,
+				D1E291AC6789569F47FE6F8A0CF454CB /* FBLPromise+Timeout.h */,
+				CA15AE293F2F8B09A22B331A15AA11F3 /* FBLPromise+Timeout.m */,
+				49B53D32FFA0FADDD0EFD1F221D2DBF1 /* FBLPromise+Validate.h */,
+				DE8C31CFE4214DE0F7EDDC5F0826A781 /* FBLPromise+Validate.m */,
+				35D0F90625B6F9CDE279F2AB6C57FDF0 /* FBLPromise+Wrap.h */,
+				2DFD3A6D1B0407A4E4089C9FB960F8ED /* FBLPromise+Wrap.m */,
+				EA10B90C5E5F9735DCAF2B69B7898746 /* FBLPromiseError.h */,
+				51E9CAF69A10FEA05C7D7D67044DF29C /* FBLPromiseError.m */,
+				7B952CC8871C2BE6DB063E53B38E66D4 /* FBLPromisePrivate.h */,
+				CA642A183D30B813660AA86CBB787FDA /* FBLPromises.h */,
+				57594513CCFE5620846EE9991A9E9F3C /* Support Files */,
 			);
-			name = Pods;
+			name = PromisesObjC;
+			path = PromisesObjC;
 			sourceTree = "<group>";
 		};
-		4A603A878E5436DC43878A309A49F56C /* PureLayout */ = {
+		574F9347B40468E85B43338FDA81A21E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				123A254A231B536E205426F275C27915 /* ALView+PureLayout.h */,
-				97501F9366F9E5E49CE81B6A7158F6AC /* ALView+PureLayout.m */,
-				A72F7E3B6D4AF6293CC728D1825B946B /* NSArray+PureLayout.h */,
-				1993BD8BEB4BCC6E3B512FF70A5E063D /* NSArray+PureLayout.m */,
-				F90B2E04EFB939C836BA02137FC89D3B /* NSLayoutConstraint+PureLayout.h */,
-				CE6B2A6882F1E989A0F76B63A855E987 /* NSLayoutConstraint+PureLayout.m */,
-				322F1E56B10AFDBBD6EDAF48372DE756 /* PureLayout.h */,
-				80F96E4ABE8F89F7939CD79D6E6FB7CE /* PureLayout+Internal.h */,
-				32849B88153EFE10C42AD9EF8CED9FDF /* PureLayoutDefines.h */,
-				E5864BB486BC7D5C176B29FA67E7A37D /* Support Files */,
+				3D606BA1960A07531A393B91C06CF49D /* PureLayout.modulemap */,
+				98AD42740831FB3FC42B8A057E0BF5F4 /* PureLayout-dummy.m */,
+				BC8E335F42B4E893593F589361A29C06 /* PureLayout-Info.plist */,
+				0DFB1A4907E285F692E8E7DC18B4EE9F /* PureLayout-prefix.pch */,
+				E25B9A2C99BBBDD6EDD7B19FB3C0A758 /* PureLayout-umbrella.h */,
+				1655AF17FE654E31A00F1B527DC6C9D9 /* PureLayout.debug.xcconfig */,
+				9F352F736E8DA00E7E094329022E61BF /* PureLayout.release.xcconfig */,
 			);
-			path = PureLayout;
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		57594513CCFE5620846EE9991A9E9F3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49B6ECB697781A6162CE854BAC48B63 /* PromisesObjC.modulemap */,
+				16413C3FFB839BBC778CA4F34E3DFF27 /* PromisesObjC-dummy.m */,
+				D73C3BF255729162305EB777D3D53560 /* PromisesObjC-Info.plist */,
+				3B9935D2044C3EFB403FA75CBDF28B25 /* PromisesObjC-umbrella.h */,
+				C21EC73BFC14B48F4139912B1A5953ED /* PromisesObjC.debug.xcconfig */,
+				59D252B82EE86BE6DA3ADBBDFDA25EA6 /* PromisesObjC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromisesObjC";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -136,6 +294,43 @@
 			path = "Target Support Files/Pods-InstaRetro";
 			sourceTree = "<group>";
 		};
+		839F66024D4D8E32DB3CE1BD1FC4D4CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB7D2A51A1D494FF2483435538B5F8B /* Pods-InstaRetro */,
+				3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */,
+				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A298EF11F03425FCACF18739F92D402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				071BF7A9C899DF723FF7F4A8196E1A5F /* PromisesObjC */,
+				927A87D8663D0686BFE9BE5B720C6556 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		927A87D8663D0686BFE9BE5B720C6556 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B360333BA9833FD9A0AE97FA731917A9 /* ALView+PureLayout.h */,
+				28E3662F6D3A0E0AC37A6849938305D7 /* ALView+PureLayout.m */,
+				1CCAF4C840EC221A9EB5914B744A1AF8 /* NSArray+PureLayout.h */,
+				E40352B5ECC56FB851176F0CDA22F0F7 /* NSArray+PureLayout.m */,
+				804E187C6ABD3313C433EAF10BEF2E19 /* NSLayoutConstraint+PureLayout.h */,
+				2EB3EF1125129D39BD7153B2EFE65314 /* NSLayoutConstraint+PureLayout.m */,
+				C3067C98DFCB27B976D1C17BCA13BE1E /* PureLayout.h */,
+				6A6D256CF230629C38B79888A6A20ACD /* PureLayout+Internal.h */,
+				F080ADF7CB1B573CA79CFC6FD832C909 /* PureLayoutDefines.h */,
+				574F9347B40468E85B43338FDA81A21E /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
 		A533CCA6F12119E71BB19ED909A1E04F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,22 +339,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C363F6FA8C08642EB3490B1D13C06795 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9CB7D2A51A1D494FF2483435538B5F8B /* Pods_InstaRetro.framework */,
-				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				04A2C822144CEC05EB5AD23AE0036229 /* Pods */,
-				C363F6FA8C08642EB3490B1D13C06795 /* Products */,
+				8A298EF11F03425FCACF18739F92D402 /* Pods */,
+				839F66024D4D8E32DB3CE1BD1FC4D4CD /* Products */,
 				A533CCA6F12119E71BB19ED909A1E04F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -172,29 +358,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5864BB486BC7D5C176B29FA67E7A37D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9458B60191A190AB842EBA5C8527A6DD /* PureLayout.modulemap */,
-				ABC089F6A5FF4203671B85E40022E9A2 /* PureLayout-dummy.m */,
-				34BAC89A0D67B845F11A344C27F12EED /* PureLayout-Info.plist */,
-				D95BA5559E8EE97AF8CE2757639D6E24 /* PureLayout-prefix.pch */,
-				49B2C553A17C85D3D764140EBE18602C /* PureLayout-umbrella.h */,
-				84D9FD75646605AE4BB593A155E008BD /* PureLayout.debug.xcconfig */,
-				B7C44BC945171FD81F015DC3F48478B5 /* PureLayout.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PureLayout";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AB8E18BA719CA5227CDAF53EEC4A2AC2 /* Headers */ = {
+		872EA3B33538912B16ABC5E73C3C587A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEAC22BCBE651C9C0D907B1DC7ACF007 /* Pods-InstaRetro-umbrella.h in Headers */,
+				F692AFE716830C83D0232CB697C587CF /* FBLPromise.h in Headers */,
+				E8C4C9797EDEF0293A2CAC8E2ACE0254 /* FBLPromise+All.h in Headers */,
+				67200FC7F43D52390F191CCBE8C989D7 /* FBLPromise+Always.h in Headers */,
+				8F24CCC78D4735A6C8F51DDEA32896E3 /* FBLPromise+Any.h in Headers */,
+				7395AB047CD3F7F7E73863E6AE0897AB /* FBLPromise+Async.h in Headers */,
+				B8475811835AA1D8D35696025B54A32A /* FBLPromise+Await.h in Headers */,
+				F3526329A0CD55A132F6886447061897 /* FBLPromise+Catch.h in Headers */,
+				C2D5F5F8F079EBC3F2AE30E796EA7012 /* FBLPromise+Delay.h in Headers */,
+				5DE6E1C8108ACCD702BDB7E1758B98CB /* FBLPromise+Do.h in Headers */,
+				54390C217EDB9356FED14E261B5DDF81 /* FBLPromise+Race.h in Headers */,
+				503E4996780E392DEA709307B4A23E80 /* FBLPromise+Recover.h in Headers */,
+				67DE17B49BE1F4D5CD8726AF57A38B46 /* FBLPromise+Reduce.h in Headers */,
+				3A0D9E4C051A8036B874DE10F556019B /* FBLPromise+Retry.h in Headers */,
+				0A5518DBDC63E37EFCE9BB02DF301FBC /* FBLPromise+Testing.h in Headers */,
+				C37B258B49C1CAEB8FD4B640DF9BA4A5 /* FBLPromise+Then.h in Headers */,
+				D855E73C5D77114705E916988AB5C966 /* FBLPromise+Timeout.h in Headers */,
+				9FE409413F20F76FD2ECAED13461C370 /* FBLPromise+Validate.h in Headers */,
+				67D10785E1CA8DAAB7F2D2356DBEA96A /* FBLPromise+Wrap.h in Headers */,
+				0A19F192A10119E839190B41AE397305 /* FBLPromiseError.h in Headers */,
+				56DB0E51ABA3118E51B90F6A0E875299 /* FBLPromisePrivate.h in Headers */,
+				835025897F8AA7BA3F9CF5766997D3C3 /* FBLPromises.h in Headers */,
+				E13E82E6D1F6E3BF315BE1BFDF771BD6 /* PromisesObjC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBBADBEBB3C3D352E4104E67319EFE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA7DDDCC38B15C29A8A2A7FF8934529 /* Pods-InstaRetro-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,26 +430,45 @@
 			);
 			name = PureLayout;
 			productName = PureLayout;
-			productReference = E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */;
+			productReference = E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */;
 			productType = "com.apple.product-type.framework";
 		};
-		9CD8C3FB5164FC361EC0F3C49BA513C5 /* Pods-InstaRetro */ = {
+		2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EFFB97035746BCCA0159DC1DBA1DABDC /* Build configuration list for PBXNativeTarget "Pods-InstaRetro" */;
+			buildConfigurationList = 77EEFEB2F765EE130F2B1AD547DDAA33 /* Build configuration list for PBXNativeTarget "PromisesObjC" */;
 			buildPhases = (
-				AB8E18BA719CA5227CDAF53EEC4A2AC2 /* Headers */,
-				569AE5B4870C831633E4B09EB4E65A29 /* Sources */,
-				DAE86790FEFA037AB688819FDF783FC2 /* Frameworks */,
-				2A96E82DAC551255B2771A312B88B8D2 /* Resources */,
+				872EA3B33538912B16ABC5E73C3C587A /* Headers */,
+				31937E1CF7C7FE422232BDE3F2C1F17A /* Sources */,
+				8BC7307379BEE4B4AE87709B9BFA0DE7 /* Frameworks */,
+				194C8642D71A8F4B4C756D10DFE3556B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD01F70411D314BEA564335BF4350F36 /* PBXTargetDependency */,
+			);
+			name = PromisesObjC;
+			productName = FBLPromises;
+			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CD8C3FB5164FC361EC0F3C49BA513C5 /* Pods-InstaRetro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19B3B6397993EA4E7AD314A9D99BF97 /* Build configuration list for PBXNativeTarget "Pods-InstaRetro" */;
+			buildPhases = (
+				ADBBADBEBB3C3D352E4104E67319EFE5 /* Headers */,
+				008E1A42EF8AE67EBD52F9D46898B9AB /* Sources */,
+				A543523F7B91C73DAFCE11E9A2583667 /* Frameworks */,
+				025DA490E95DA96B4C8380C8EAB39524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27992D04097A0C5D34394ABBA8BC4BD9 /* PBXTargetDependency */,
+				77FA2569F9CED7416FE67C07627B023B /* PBXTargetDependency */,
 			);
 			name = "Pods-InstaRetro";
 			productName = Pods_InstaRetro;
-			productReference = 9CB7D2A51A1D494FF2483435538B5F8B /* Pods_InstaRetro.framework */;
+			productReference = 9CB7D2A51A1D494FF2483435538B5F8B /* Pods-InstaRetro */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -259,7 +478,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -270,25 +489,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C363F6FA8C08642EB3490B1D13C06795 /* Products */;
+			productRefGroup = 839F66024D4D8E32DB3CE1BD1FC4D4CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9CD8C3FB5164FC361EC0F3C49BA513C5 /* Pods-InstaRetro */,
+				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
 				06F5CDD6235E25837519792853B145A1 /* PureLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		261646C511CA38C074F880A2F90639B7 /* Resources */ = {
+		025DA490E95DA96B4C8380C8EAB39524 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A96E82DAC551255B2771A312B88B8D2 /* Resources */ = {
+		194C8642D71A8F4B4C756D10DFE3556B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261646C511CA38C074F880A2F90639B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,11 +525,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		569AE5B4870C831633E4B09EB4E65A29 /* Sources */ = {
+		008E1A42EF8AE67EBD52F9D46898B9AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40FE4DEAE156BB0CBF3F014DCDC66236 /* Pods-InstaRetro-dummy.m in Sources */,
+				B7573A7D0645523D06C5D6400DEAF1A6 /* Pods-InstaRetro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31937E1CF7C7FE422232BDE3F2C1F17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BBDAE636C015574800F693C5B961E3 /* FBLPromise.m in Sources */,
+				7060E468379E8192C7824EF05985E516 /* FBLPromise+All.m in Sources */,
+				FC1802D1534D54F5A3010B568954D97E /* FBLPromise+Always.m in Sources */,
+				B5342077AA105B42CD6AA7F18C4C0696 /* FBLPromise+Any.m in Sources */,
+				0A6A14AD60C2AED8E0557866B909FF57 /* FBLPromise+Async.m in Sources */,
+				0CC6931BBB54C6A1992F82812E6F7DBA /* FBLPromise+Await.m in Sources */,
+				B6AD3079500087EF1ABF339CC605CE69 /* FBLPromise+Catch.m in Sources */,
+				60C2ADA1F2F23F48E6744E29AA0FBFA2 /* FBLPromise+Delay.m in Sources */,
+				0616832BCAAFFD3C0ADB30390147CD25 /* FBLPromise+Do.m in Sources */,
+				4C915B6FAA8A3D7E5332DA6AD78C076E /* FBLPromise+Race.m in Sources */,
+				B116B5A6AE4762DCCAEB3A7EEDD33011 /* FBLPromise+Recover.m in Sources */,
+				0421BA4275CA2429CD8DBCF1F99967E2 /* FBLPromise+Reduce.m in Sources */,
+				C111625609C3A672D0F9217B126A6872 /* FBLPromise+Retry.m in Sources */,
+				1C0FECF0400E3028F1882037DABC8A7F /* FBLPromise+Testing.m in Sources */,
+				8B63DFFBC8E8E6536F04D1622AFBCE15 /* FBLPromise+Then.m in Sources */,
+				F68ED69386B21248427FA34CEA451E07 /* FBLPromise+Timeout.m in Sources */,
+				DA98FA4A7AC4FEF12581DE908D3AB376 /* FBLPromise+Validate.m in Sources */,
+				2998CAD3A72D48ADB5E09DFD2B42D8CE /* FBLPromise+Wrap.m in Sources */,
+				DEEE3026EB40EFE54A3C791C5382A0F9 /* FBLPromiseError.m in Sources */,
+				80F54C2BF222753408F5C3E1EB7D72B8 /* PromisesObjC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,16 +574,122 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CD01F70411D314BEA564335BF4350F36 /* PBXTargetDependency */ = {
+		27992D04097A0C5D34394ABBA8BC4BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesObjC;
+			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
+			targetProxy = 79EC3D0108CD6A34102C607079F28D24 /* PBXContainerItemProxy */;
+		};
+		77FA2569F9CED7416FE67C07627B023B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PureLayout;
 			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
-			targetProxy = E595DB2C50438C046F6439F87677EA23 /* PBXContainerItemProxy */;
+			targetProxy = ED380ACBE3118E1EF703C20EDE5E58F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+		15D1A81AD0AD9469311773DBC21A878F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21EC73BFC14B48F4139912B1A5953ED /* PromisesObjC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromisesObjC/PromisesObjC.modulemap";
+				PRODUCT_MODULE_NAME = FBLPromises;
+				PRODUCT_NAME = FBLPromises;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BFF9C506476A91C204932092972C3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C259D368A92A3FD4B9510A2337D35FD /* Pods-InstaRetro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaRetro/Pods-InstaRetro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaRetro/Pods-InstaRetro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D0E3AEED2F2F7DE94CF11BC123C62DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D252B82EE86BE6DA3ADBBDFDA25EA6 /* PromisesObjC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromisesObjC/PromisesObjC.modulemap";
+				PRODUCT_MODULE_NAME = FBLPromises;
+				PRODUCT_NAME = FBLPromises;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -364,7 +724,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -396,7 +755,102 @@
 			};
 			name = Debug;
 		};
-		6C96CCE211DDA780811400F462C168B8 /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3056055D6C2340F50DA193F58BEF551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1655AF17FE654E31A00F1B527DC6C9D9 /* PureLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B62ABD14336B49D9C330B9EB85416C25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2CE3C56876DC8E93E758AF3F2103BCF3 /* Pods-InstaRetro.release.xcconfig */;
 			buildSettings = {
@@ -434,105 +888,9 @@
 			};
 			name = Release;
 		};
-		B3056055D6C2340F50DA193F58BEF551 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84D9FD75646605AE4BB593A155E008BD /* PureLayout.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
-				PRODUCT_MODULE_NAME = PureLayout;
-				PRODUCT_NAME = PureLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 		F2DBC65971AEE8DF0D18B05DE49BA69C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7C44BC945171FD81F015DC3F48478B5 /* PureLayout.release.xcconfig */;
+			baseConfigurationReference = 9F352F736E8DA00E7E094329022E61BF /* PureLayout.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -545,7 +903,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,51 +922,23 @@
 			};
 			name = Release;
 		};
-		FEE751286D9B7649A6A3C139ABF35920 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C259D368A92A3FD4B9510A2337D35FD /* Pods-InstaRetro.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-InstaRetro/Pods-InstaRetro-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-InstaRetro/Pods-InstaRetro.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4214E6946993DF02ED98D89047C64016 /* Debug */,
-				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77EEFEB2F765EE130F2B1AD547DDAA33 /* Build configuration list for PBXNativeTarget "PromisesObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D1A81AD0AD9469311773DBC21A878F /* Debug */,
+				5D0E3AEED2F2F7DE94CF11BC123C62DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -622,11 +952,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EFFB97035746BCCA0159DC1DBA1DABDC /* Build configuration list for PBXNativeTarget "Pods-InstaRetro" */ = {
+		E19B3B6397993EA4E7AD314A9D99BF97 /* Build configuration list for PBXNativeTarget "Pods-InstaRetro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEE751286D9B7649A6A3C139ABF35920 /* Debug */,
-				6C96CCE211DDA780811400F462C168B8 /* Release */,
+				1BFF9C506476A91C204932092972C3A0 /* Debug */,
+				B62ABD14336B49D9C330B9EB85416C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

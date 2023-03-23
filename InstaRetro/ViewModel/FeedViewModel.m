@@ -6,7 +6,6 @@
 //
 
 #import "FeedViewModel.h"
-#import "NetworkManager.h"
 
 @implementation FeedViewModel
 
@@ -14,14 +13,15 @@
     NetworkManager *service = NetworkManager.new;
     NSMutableArray *postCompleted = NSMutableArray.new;
     
-    [service fetchPostInfo:^(NSArray<Post *> * infos) {
+    [service fetchPostInfo:^(NSArray<Post *> *infos) {
+        //TODO: Refatorar essa lógica
         for (Post *post in infos) {
             [service fetchImageData:post.postUrl result:^(NSData *imageData) {
                 post.postImage = [UIImage imageWithData:imageData];
                 [postCompleted addObject:post];
             }];
         }
-        
+        //TODO: Refatorar essa lógica
         for (Post *post in infos) {
             [service fetchImageData:post.profiletUrl result:^(NSData *imageData) {
                 post.profileImage = [UIImage imageWithData:imageData];
